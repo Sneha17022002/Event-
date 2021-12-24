@@ -1,0 +1,257 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*navbar*/
+.navbar {
+    top: 0;
+  left: 0;
+  right: 0;
+    background-color: rgba(0, 0, 0, 1);
+    /* line-height: 75px; */
+    padding: 0px 80px;
+    position: fixed;
+}
+
+.navbar .logo {
+    float: left;
+    
+}
+
+.navbar .logo p {
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: rgb(255, 250, 183);
+    /* text-transform: uppercase; */
+}
+
+.navbar ul {
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    
+    display: inline-block;
+    font-family: century;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+.navbar ul li a:hover {
+    background-color: rgb(112, 112, 112);
+}
+
+
+.home {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://res.cloudinary.com/dhbcqfyx4/image/upload/v1639844568/shaji/WhatsApp_Image_2021-12-18_at_9.38.21_PM_kb7s6m.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.home .text-box {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-top: 5rem;
+}
+
+.text-box h2 {
+    padding-bottom: 4rem;
+  size: 4rem;
+  font-size: 4rem;
+  color: white;
+}
+
+
+
+.home .text-box p {
+    padding-bottom: 4rem;
+    size: 2rem;
+    font-size: 2rem;
+    color: rgb(87, 253, 54);
+}
+
+/*
+.home .content{
+max-width: 60rem;
+top:30%;
+right:10%;
+align-items:center;
+display:flex;
+
+}
+*/
+.column {
+float:left;
+width: 33.33%;
+padding: 2rem;
+}
+.column img{
+    height: 20rem;
+    width:20rem;
+   
+}
+
+/* Clearfix (clear floats) */
+.rows::after {
+content: "";
+clear: both;
+display: table;
+}
+
+
+.headings {
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px 0px;
+    font-weight: bold;
+    top: 30%;
+    right: 10%;
+    color: rgba(10, 10, 10, 0.973);
+}
+
+/*about us */
+.about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+
+.about .intro {
+    font-size: 2rem;
+  text-align: left;
+  margin: 10px 0px;
+  color: #000;
+  padding: 20px;
+}
+
+.about .intro h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about .intro p {
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+
+/* 
+
+.about .box-conatiner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about .box-conatiner .box {
+    display: flex;
+    flex-direction: column;
+    float: right;
+} */
+
+/*services*/
+.services {
+    display: flex;
+    flex-direction: column;
+  
+    padding: 3rem;
+  }
+  
+  .services .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .services .row .box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    background: linear-gradient(to top, rgb(56, 56, 56) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+  }
+  .services .row .box:hover {
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 30px rgb(140, 155, 113);
+  }
+  
+
+/*conatct services*/
+.contact {
+    display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgb(83, 102, 85);
+  height: 4.5rem;
+  justify-content: center;
+  align-items: center;
+
+  }
+  span {
+    padding: 1rem;
+  }
+  .button {
+    padding: 4rem 0 1rem;
+    justify-content: space-between;
+  }
+
+#msg {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#send {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+img {
+    width: 100%
+}
+
+
+
